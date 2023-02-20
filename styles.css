@@ -23,14 +23,19 @@
 }
 
 .main-content {
+    display: grid;
     background-color: rgb(197, 191, 191);
     grid-column: 2 / 4;
     grid-row: 2 / 5;
+    grid-template-columns: 3fr 1fr;
 }
 
 .article > div {
     border: 1px solid black;
 }
 .article {
-    grid-template-columns: ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: 1fr;;
+    gap: 2rem 1rem;
 }
