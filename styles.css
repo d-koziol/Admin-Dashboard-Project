@@ -28,6 +28,8 @@
     grid-column: 2 / 4;
     grid-row: 2 / 5;
     grid-template-columns: 3fr 1fr;
+    gap: 2rem 1rem;
+    padding: 2rem;
 }
 
 .article > div {
@@ -35,7 +37,15 @@
 }
 .article {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 1fr;;
     gap: 2rem 1rem;
+}
+
+.announces {
+    grid-column: 2 / 3;
+}
+
+.trends {
+    grid-column: 2 / 3;
 }
