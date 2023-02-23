@@ -169,6 +169,20 @@ a {
 .annaun-trending-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-column: 2 / 3;
+    grid-column: 2 / 3; 
     
+}
+
+.anounces-container,
+.trends-caontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+    paddi
+}
+
+.annaunce {
+    padding: 1rem;
 }
