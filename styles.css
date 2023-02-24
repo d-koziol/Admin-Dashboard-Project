@@ -73,6 +73,7 @@ a {
     padding: 2rem;
     align-items: center;
     row-gap: 2rem;
+    
 }
 
 .header > .searchbar-user {
@@ -99,18 +100,15 @@ a {
     gap: 1rem;
 }
 
-.header > .welcome-user > p,
-.header > .welcome-user > h3 {
+.hllo-txt{
     grid-column: 2;
-    
 }
 
 .header > .welcome-user {
     display: grid;
-    grid-template-columns: 1fr 6fr;
-    gap: 0.5rem 1rem;
-    margin: 0;
-    padding: 0;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: center;
 }
 
 .header > .options-user {
@@ -195,4 +193,9 @@ a {
 
 .annaunce {
     padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Labrada', serif;
 }
