@@ -181,12 +181,23 @@ ul li p:hover {
     border-radius: 15px;
 }
 
+.content-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.content-icons > a > img {
+    width: 2rem;
+    height: 1.5rem;
+}
 
 .annaun-trending-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-column: 2 / 3; 
-    
 }
 
 .anounces-container,
@@ -201,6 +212,11 @@ ul li p:hover {
 
 .annaunce {
     padding: 1rem;
+}
+
+hr {
+    margin: auto;
+    width: 75%;
 }
 
 footer {
