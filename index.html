@@ -1,234 +1,257 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Admin Dashboard</title>
-</head>
-<body>
-    <div class="container">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Admin Dashboard</title>
+    </head>
+    <body>
+        <div class="container">
 
-        <div class="sidebar">
-            <div class="logo">
-                <a href="index.html">
-                <img src="icons/dashboard-tile-solid-svgrepo-com.svg" alt="dashboard icon" srcset="" class="nav-icons">
-                <h2>Dashboard</h2>
-                </a>
-            </div>
+            <div class="sidebar">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="icons/dashboard-tile-solid-svgrepo-com.svg" alt="dashboard icon" srcset="" class="nav-icons">
+                    <h2>Dashboard</h2>
+                    </a>
+                </div>
 
-            <div class="nav">
+                <div class="nav">
 
-                <ul class="nav-links">
-                    <li>
-                        <a href="#">
-                        <img src="icons/home-svgrepo-com.svg" alt="home icon" srcset="" class="nav-icons">
-                        <p>Home</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <img src="icons/profile2-svgrepo-com.svg" alt="profile icon" srcset="" class="nav-icons">
-                        <p>Profile</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <img src="icons/messages-mail-svgrepo-com.svg" alt="messages icon" srcset="" class="nav-icons">
-                        <p>Messages</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <img src="icons/history-round-svgrepo-com.svg" alt="history icon" srcset="" class="nav-icons">
-                        <p>History</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <img src="icons/tasks-app-svgrepo-com.svg" alt="tasks icon" srcset="" class="nav-icons">
-                        <p>Tasks</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <img src="icons/community-svgrepo-com.svg" alt="community icon" srcset="" class="nav-icons">
-                        <p>Community</p>
-                        </a>
-                    </li>
-                </ul>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="#">
+                            <img src="icons/home-svgrepo-com.svg" alt="home icon" srcset="" class="nav-icons">
+                            <p>Home</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="icons/profile2-svgrepo-com.svg" alt="profile icon" srcset="" class="nav-icons">
+                            <p>Profile</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="icons/messages-mail-svgrepo-com.svg" alt="messages icon" srcset="" class="nav-icons">
+                            <p>Messages</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="icons/history-round-svgrepo-com.svg" alt="history icon" srcset="" class="nav-icons">
+                            <p>History</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="icons/tasks-app-svgrepo-com.svg" alt="tasks icon" srcset="" class="nav-icons">
+                            <p>Tasks</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="icons/community-svgrepo-com.svg" alt="community icon" srcset="" class="nav-icons">
+                            <p>Community</p>
+                            </a>
+                        </li>
+                    </ul>
 
-                <ul class="nav-settings">
-                    <li>
-                        <a href="#">
-                        <img src="icons/settings-ui-svgrepo-com.svg" alt="settings icon" srcset="" class="nav-icons">
-                        <p>Settings</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <img src="icons/help-svgrepo-com.svg" alt="question mark icon" srcset="" class="nav-icons">
-                        <p>Support</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <img src="icons/privacy-tips-svgrepo-com.svg" alt="privacy icon" srcset="" class="nav-icons">
-                        <p>Privacy</p>
-                        </a>
-                    </li>
-                </ul>
+                    <ul class="nav-settings">
+                        <li>
+                            <a href="#">
+                            <img src="icons/settings-ui-svgrepo-com.svg" alt="settings icon" srcset="" class="nav-icons">
+                            <p>Settings</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="icons/help-svgrepo-com.svg" alt="question mark icon" srcset="" class="nav-icons">
+                            <p>Support</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="icons/privacy-tips-svgrepo-com.svg" alt="privacy icon" srcset="" class="nav-icons">
+                            <p>Privacy</p>
+                            </a>
+                        </li>
+                    </ul>
 
-            </div>
-        </div>
-
-        <div class="header">
-            <div class="searchbar-user">
-                <img src="icons/search-svgrepo-com.svg" alt="search icon" srcset="" class="nav-icons">
-                <input type="search" class="search">
-            </div>
-            <div class="profile-user">
-                <a href="#"><img src="icons/notification-on-solid-svgrepo-com.svg" alt="notifications icon" srcset="" class="nav-icons"></a>
-                <a href="#"><img src="icons/account-avatar-profile-user-3-svgrepo-com.svg" alt="user pic" srcset="" class="profile-pic1"></a>
-                <a href="#" class="acc-name">Admin Account</a>
-
-            </div>
-            <div class="welcome-user">
-                <a href="#"><img src="icons/account-avatar-profile-user-3-svgrepo-com.svg" alt="user pic" srcset="" class="profile-pic2"></a>
-                <div class="hello-txt">
-                    <p>Hi there,</p>
-                    <h3>Someone someone(@some)</h3>
                 </div>
             </div>
-            <div class="options-user">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
-            </div>
-        </div>
 
-        <main class="main-content">
-        <div class="projects">
-            <h3>Your Projects</h3>
-            <div class="article">
-                <div class="text-content">
-                    <h3>Dummy Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <div class="content-icons">
-                        <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
-                    </div>
+            <div class="header">
+                <div class="searchbar-user">
+                    <img src="icons/search-svgrepo-com.svg" alt="search icon" srcset="" class="nav-icons">
+                    <input type="search" class="search">
                 </div>
-            </div>
-            <div class="article">
-                <div class="text-content">
-                    <h3>Dummy Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <div class="content-icons">
-                        <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <div class="text-content">
-                    <h3>Dummy Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <div class="content-icons">
-                        <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <div class="text-content">           
-                    <h3>Dummy Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <div class="content-icons">
-                        <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <div class="text-content">
-                    <h3>Dummy Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <div class="content-icons">
-                        <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <div class="text-content">
-                    <h3>Dummy Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <div class="content-icons">
-                        <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
-                        <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
-                    </div>
-                </div>
-            </div>
-        </div>
+                <div class="profile-user">
+                    <a href="#"><img src="icons/notification-on-solid-svgrepo-com.svg" alt="notifications icon" srcset="" class="nav-icons"></a>
+                    <a href="#"><img src="icons/account-avatar-profile-user-3-svgrepo-com.svg" alt="user pic" srcset="" class="profile-pic1"></a>
+                    <a href="#" class="acc-name">Admin Account</a>
 
-        <div class="annaun-trending-container">
-            <div class="announces">
-                <h3>Annoucements</h3>
-                <div class="anounces-container">
-                    <div class="annaunce">
-                        <h4>New</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div class="welcome-user">
+                    <a href="#"><img src="icons/account-avatar-profile-user-3-svgrepo-com.svg" alt="user pic" srcset="" class="profile-pic2"></a>
+                    <div class="hello-txt">
+                        <p>Hi there,</p>
+                        <h3>Someone someone(@some)</h3>
                     </div>
-                    <hr>
-                    <div class="annaunce">
-                        <h4>Names</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div class="options-user">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+
+            <main class="main-content">
+            <div class="projects">
+                <h3>Your Projects</h3>
+                <div class="article">
+                    <div class="text-content">
+                        <h3>Dummy Text</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                        <div class="content-icons">
+                            <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
+                        </div>
                     </div>
-                    <hr>
-                    <div class="annaunce">
-                        <h4>Sites</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div class="article">
+                    <div class="text-content">
+                        <h3>Dummy Text</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                        <div class="content-icons">
+                            <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="text-content">
+                        <h3>Dummy Text</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="content-icons">
+                            <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="text-content">           
+                        <h3>Dummy Text</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="content-icons">
+                            <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="text-content">
+                        <h3>Dummy Text</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                        <div class="content-icons">
+                            <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="text-content">
+                        <h3>Dummy Text</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                        <div class="content-icons">
+                            <a href="#"><img src="icons/star-add-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/eye-plus-svgrepo-com.svg" alt=""></a>
+                            <a href="#"><img src="icons/share-svgrepo-com.svg" alt=""></a>  
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="trends">
-                <h3>Trending</h3>
-                <div class="trends-container">
-                    <div class="trend">
-
+            <div class="annaun-trending-container">
+                <div class="announces">
+                    <h3>Annoucements</h3>
+                    <div class="anounces-container">
+                        <div class="annaunce">
+                            <h4>New</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <hr>
+                        <div class="annaunce">
+                            <h4>Names</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <hr>
+                        <div class="annaunce">
+                            <h4>Sites</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                    <div class="trend">
+                </div>
+
+                <div class="trends">
+                    <h3>Trending</h3>
+                    <div class="trends-container">
+                        <div class="trend">
+                            <img src="icons/sheep-2-svgrepo-com (1).svg" alt="" srcset="">
+                            <div class="trend-content">
+                            <h4>White Projects</h4>
+                            <p>New projects</p>
+                            </div>
+                        </div>
                         
-                    </div>
-                    <div class="trend">
+                        <div class="trend">
+                            <img src="icons/sheep-2-svgrepo-com.svg" alt="" srcset="">
+                            <div class="trend-content">
+                                <h4>Black Projects</h4>
+                                <p>Old projects</p>
+                            </div>
+                        </div>
+
+                        <div class="trend">
+                            <img src="icons/hippopotamus-svgrepo-com.svg" alt="" srcset="">
+                            <div class="trend-content">
+                            <h4>Big Projects</h4>
+                            <p>Great projects</p>
+                            </div>
+                        </div>
+
+                        <div class="trend">
+                            <img src="icons/tanuki-svgrepo-com.svg" alt="" srcset="">
+                            <div class="trend-content">
+                                <h4>Wild Projects</h4>
+                                <p>Crazy projects</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                </div> 
             </div>
-            </div> 
         </div>
-    </div>
-    </main>
-    <footer>Copyright © Damian Koziol</footer>
-</body>
-</html>
+        </main>
+        <footer>Copyright © Damian Koziol</footer>
+    </body>
+    </html>

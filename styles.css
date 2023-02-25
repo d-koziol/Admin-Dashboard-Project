@@ -50,7 +50,7 @@ a {
 }
 
 ul li p:hover {
-    font-size: 20px;
+font-size: 20px;
  transform:rotate(360deg);
  transition: 0.2s;
 }
@@ -196,7 +196,7 @@ ul li p:hover {
 }
 
 .anounces-container,
-.trends-caontainer {
+.trends-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -205,8 +205,21 @@ ul li p:hover {
     margin-top: 0.5rem;
 }
 
-.annaunce {
+.annaunce,
+.trend {
     padding: 1rem;
+}
+
+.trend {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    align-self: center;
+    justify-self: center;
+}
+.trend > img { 
+    width: 3rem;
+    height: 3rem;
 }
 
 hr {
