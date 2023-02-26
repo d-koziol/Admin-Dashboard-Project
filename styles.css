@@ -42,19 +42,19 @@ ul > li {
 }
 
 a {
-  text-decoration: none;
-  color: black;  
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+text-decoration: none;
+color: black;  
+display: flex;
+gap: 1rem;
+align-items: center;
 }
 
 ul li p:hover {
 font-size: 20px;
- transform:rotate(360deg);
- transition: 0.2s;
+transform:rotate(360deg);
+transition: 0.2s;
 }
-  
+
 .profile-pic1 {
     width: 3rem;
     height: 3rem;
